@@ -1,10 +1,10 @@
-const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const array = array1.find((element) => {
-  console.log(array1);
-  return element == 4;
-});
-console.log(array);
+// const array = array1.find((element) => {
+//   console.log(array1);
+//   return element == 4;
+// });
+// console.log(array);
 
 // array1.pop();
 // array1.push(10);
@@ -13,3 +13,12 @@ console.log(array);
 
 //console.log(array1[2]);
 //console.log(array1);
+
+let array11 = [1, 2, 3, 4, 5, 6, 44];
+let newArray = [...array11];
+array11[3] = 100;
+
+// array11 = [];
+
+console.log(array11);
+console.log(newArray);

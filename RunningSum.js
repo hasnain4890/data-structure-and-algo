@@ -3,10 +3,11 @@ const RunningSum = (array) => {
   ans = [];
   for (let i = 0; i < array.length; i++) {
     sum = sum + array[i];
-    ans[i] = sum;
-    console.log(ans[i]);
+    // ans[i] = sum;
+    // console.log(ans[i]);
+    console.log(sum);
   }
-
-  console.log(ans);
+  return sum;
 };
-RunningSum([1, 2, 3, 4, 5, 6]);
+res = RunningSum([1, 2, 3, 4, 5, 6]);
+console.log(res);

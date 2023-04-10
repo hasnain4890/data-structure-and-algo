@@ -7,8 +7,9 @@ function sum_par(array, number) {
     //   var second = array[j];
     // }
     if (array[i] + array[i + 1] == number) {
-      console.log(array[i], array[i + 1]);
+      return [array[i], array[i + 1]];
     }
   }
 }
-sum_par([1, 2, 3, 5, -8,6, 7, 8, 9], 15);
+res = sum_par([1, 2, 3, 5, -8, 6, 7, 8, 9], 15);
+console.log(res);
